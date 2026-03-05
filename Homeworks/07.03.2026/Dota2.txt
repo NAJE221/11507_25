@@ -1,0 +1,123 @@
+Abaddon;1;Strength;Melee;500;24;2;23
+Alchemist;1;Strength;Melee;500;27;1;25
+Ancient Apparition;3;Intelligence;Ranged;280;20;0;23
+Anti-Mage;2;Agility;Melee;300;22;1;15
+Arc Warden;2;Agility;Ranged;290;20;0;20
+Axe;1;Strength;Melee;500;26;1;25
+Bane;3;Intelligence;Ranged;280;20;0;23
+Batrider;1;Strength;Ranged;480;24;0;23
+Beastmaster;1;Strength;Melee;500;25;1;19
+Bloodseeker;2;Agility;Melee;300;22;1;23
+Bounty Hunter;2;Agility;Melee;290;21;1;23
+Brewmaster;1;Strength;Melee;500;25;1;23
+Bristleback;1;Strength;Melee;500;26;2;23
+Broodmother;2;Agility;Melee;290;21;0;23
+Centaur Warrunner;1;Strength;Melee;520;26;1;23
+Chaos Knight;1;Strength;Melee;500;26;1;23
+Chen;3;Intelligence;Ranged;280;20;0;23
+Clinkz;2;Agility;Ranged;290;20;0;23
+Clockwerk;1;Strength;Melee;480;24;1;23
+Crystal Maiden;3;Intelligence;Ranged;280;20;0;23
+Dark Seer;2;Agility;Melee;290;21;1;23
+Dawnbreaker;1;Strength;Melee;500;25;1;23
+Dazzle;3;Intelligence;Ranged;280;20;0;23
+Death Prophet;3;Intelligence;Ranged;280;20;0;23
+Disruptor;3;Intelligence;Ranged;280;20;0;23
+Doom;1;Strength;Melee;500;26;1;23
+Dragon Knight;1;Strength;Melee;500;26;1;23
+Drow Ranger;2;Agility;Ranged;290;20;0;23
+Earth Spirit;1;Strength;Melee;480;24;0;23
+Earthshaker;1;Strength;Melee;500;25;1;23
+Elder Titan;1;Strength;Melee;500;25;1;23
+Ember Spirit;2;Agility;Melee;290;21;1;23
+Enchantress;3;Intelligence;Ranged;280;20;0;23
+Enigma;3;Intelligence;Ranged;280;20;0;23
+Faceless Void;2;Agility;Melee;300;20;24;15
+Grimstroke;3;Intelligence;Ranged;280;20;0;23
+Gyrocopter;2;Agility;Ranged;290;20;0;23
+Hoodwink;2;Agility;Ranged;290;20;0;23
+Huskar;1;Strength;Ranged;500;25;0;23
+Invoker;3;Intelligence;Ranged;280;20;0;23
+Io;3;Intelligence;Ranged;280;20;0;23
+Jakiro;3;Intelligence;Ranged;280;20;0;23
+Juggernaut;2;Agility;Melee;290;21;1;23
+Keeper of the Light;3;Intelligence;Ranged;280;20;0;23
+Kunkka;1;Strength;Melee;500;25;1;23
+Legion Commander;1;Strength;Melee;500;26;1;23
+Leshrac;3;Intelligence;Ranged;280;20;0;23
+Lich;3;Intelligence;Ranged;280;20;0;23
+Lifestealer;1;Strength;Melee;500;26;1;23
+Lina;3;Intelligence;Ranged;280;20;0;23
+Lion;3;Intelligence;Ranged;280;20;0;23
+Lone Druid;2;Agility;Ranged;290;20;0;23
+Luna;2;Agility;Ranged;290;20;0;23
+Lycan;2;Agility;Melee;290;21;1;23
+Magnus;1;Strength;Melee;500;25;1;23
+Marci;1;Strength;Melee;500;25;1;23
+Mars;1;Strength;Melee;500;25;1;23
+Medusa;2;Agility;Ranged;290;20;0;23
+Meepo;2;Agility;Melee;290;21;1;23
+Mirana;2;Agility;Ranged;290;20;0;23
+Monkey King;2;Agility;Melee;290;21;1;23
+Morphling;2;Agility;Ranged;290;20;0;23
+Muerta;3;Intelligence;Ranged;280;20;0;23
+Naga Siren;2;Agility;Melee;290;21;1;23
+Nature's Prophet;3;Intelligence;Ranged;280;20;0;23
+Necrophos;3;Intelligence;Ranged;280;20;0;23
+Night Stalker;1;Strength;Melee;500;25;1;23
+Nyx Assassin;2;Agility;Melee;290;21;1;23
+Ogre Magi;1;Strength;Melee;500;25;1;23
+Omniknight;1;Strength;Melee;500;25;1;23
+Oracle;3;Intelligence;Ranged;295;20;15;26
+Outworld Destroyer;3;Intelligence;Ranged;280;20;0;23
+Pangolier;2;Agility;Melee;290;21;1;23
+Phantom Assassin;2;Agility;Melee;290;21;1;23
+Phantom Lancer;2;Agility;Melee;290;21;1;23
+Phoenix;1;Strength;Ranged;480;24;0;23
+Primal Beast;1;Strength;Melee;500;25;1;23
+Puck;3;Intelligence;Ranged;280;20;0;23
+Pudge;1;Strength;Melee;280;25;11;16
+Pugna;3;Intelligence;Ranged;280;20;0;23
+Queen of Pain;3;Intelligence;Ranged;280;20;0;23
+Razor;2;Agility;Ranged;290;20;0;23
+Riki;2;Agility;Melee;290;21;1;23
+Rubick;3;Intelligence;Ranged;280;20;0;23
+Sand King;1;Strength;Melee;500;25;1;23
+Shadow Demon;3;Intelligence;Ranged;280;20;0;23
+Shadow Fiend;2;Agility;Ranged;290;20;0;23
+Shadow Shaman;3;Intelligence;Ranged;280;20;0;23
+Silencer;3;Intelligence;Ranged;280;20;0;23
+Skywrath Mage;3;Intelligence;Ranged;280;20;0;23
+Slardar;1;Strength;Melee;500;26;1;23
+Slark;2;Agility;Melee;290;21;1;23
+Snapfire;1;Strength;Ranged;480;24;0;23
+Sniper;2;Agility;Ranged;285;19;27;15
+Spectre;2;Agility;Melee;290;21;1;23
+Spirit Breaker;1;Strength;Melee;500;26;1;23
+Storm Spirit;3;Intelligence;Ranged;280;20;0;23
+Sven;1;Strength;Melee;500;26;1;23
+Techies;3;Intelligence;Ranged;280;20;0;23
+Templar Assassin;2;Agility;Ranged;290;20;0;23
+Terrorblade;2;Agility;Melee;290;21;1;23
+Tidehunter;1;Strength;Melee;500;26;1;23
+Timbersaw;1;Strength;Melee;500;25;1;23
+Tinker;3;Intelligence;Ranged;280;20;0;23
+Tiny;1;Strength;Melee;500;26;1;23
+Treant Protector;1;Strength;Melee;500;25;1;23
+Troll Warlord;2;Agility;Melee;290;21;1;23
+Tusk;1;Strength;Melee;500;25;1;23
+Underlord;1;Strength;Melee;500;25;1;23
+Undying;1;Strength;Melee;500;25;1;23
+Ursa;1;Strength;Melee;500;26;1;23
+Vengeful Spirit;2;Agility;Ranged;290;20;0;23
+Venomancer;3;Intelligence;Ranged;280;20;0;23
+Viper;2;Agility;Ranged;290;20;0;23
+Visage;3;Intelligence;Ranged;280;20;0;23
+Void Spirit;3;Intelligence;Ranged;280;20;0;23
+Warlock;3;Intelligence;Ranged;280;20;0;23
+Weaver;2;Agility;Ranged;290;20;0;23
+Windranger;3;Intelligence;Ranged;280;20;0;23
+Winter Wyvern;3;Intelligence;Ranged;280;20;0;23
+Witch Doctor;3;Intelligence;Ranged;280;20;0;23
+Wraith King;1;Strength;Melee;500;26;1;23
+Zeus;3;Intelligence;Ranged;280;20;0;23
