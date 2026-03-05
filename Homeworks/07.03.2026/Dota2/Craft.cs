@@ -7,7 +7,7 @@ public class Craft
         var dividedLine = line.Split(';');
         return new Hero(
             dividedLine[0],
-            int.Parse(dividedLine[1]),
+            dividedLine[1],
             dividedLine[2],
             dividedLine[3],
             int.Parse(dividedLine[4]),

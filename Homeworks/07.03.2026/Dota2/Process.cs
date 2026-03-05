@@ -1,30 +1,17 @@
 using System;
 using System.Linq;
 namespace Dota2;
+using static Print;
+using static Sorted;
 public class Process
 {
     private static string path = @"C:\Users\Artem\Desktop\Dota2\Dota2\Dota2.txt";
     public static void Launch()
     {
-        var input = 0;
+        int input;
         do
         {
-            Console.Clear();
-            Console.WriteLine("------СОРТИРОВКА------");
-            Console.WriteLine("1) Имя\n"+
-                              "2) Сложность (Возрастание)\n"+
-                              "3) Сложность (Убывание)\n"+
-                              "4) Тип атрибут\n"+
-                              "5) Тип атаки\n"+
-                              "6) Здоровье (Возрастание)\n"+
-                              "7) Здоровье (Убывание)\n"+
-                              "8) Урон (Возрастание)\n"+
-                              "9) Урон (Убывание)\n"+
-                              "10) Броня (Возрастание)\n"+
-                              "11) Броня (Убывание)\n"+
-                              "12) Мана (Возрастание)\n"+
-                              "13) Мана (Убывание)\n");
-            Console.Write("Введите значение: ");
+            PrintMenu();
         }
         while(!int.TryParse(Console.ReadLine() , out input) || input < 1 || input > 12);
         CheckingTheInput(input);
@@ -35,43 +22,40 @@ public class Process
         switch (input)
         {
             case 1:
-                Sorted.SortedName();
+                SortedName();
                 break;
             case 2:
-                Sorted.SortedComplexityIncreasing();
+                SortedComplexity();
                 break;
-            case 3: 
-                Sorted.SortedComplexityDescending();
+            case 3:
+                SortedTypeAttribute();
                 break;
             case 4:
-                Sorted.SortedTypeAttribute();
+                SortedTypeAttack();
                 break;
             case 5:
-                Sorted.SortedTypeAttack();
+                SortedHealthIncreasing();
                 break;
             case 6:
-                Sorted.SortedHealthIncreasing();
+                SortedHealthDescending();
                 break;
             case 7:
-                Sorted.SortedHealthDescending();
+                SortedDamageIncreasing();
                 break;
             case 8:
-                Sorted.SortedDamageIncreasing();
+                SortedDamageDescending();
                 break;
             case 9:
-                Sorted.SortedDamageDescending();
+                SortedArmorIncreasing();
                 break;
             case 10:
-                Sorted.SortedArmorIncreasing();
+                SortedArmorDescending();
                 break;
             case 11:
-                Sorted.SortedArmorDescending();
+                SortedManaIncreasing();
                 break;
             case 12:
-                Sorted.SortedManaIncreasing();
-                break;
-            case 13:
-                Sorted.SortedManaDescending();
+                SortedManaDescending();
                 break;
         }
     }
@@ -88,6 +72,7 @@ public class Process
     }
 }
 
+
 public class Sorted
 {
     public static void SortedName()
@@ -96,27 +81,82 @@ public class Sorted
         SortedPrint(sortedHeroes);
     }
 
-    public static void SortedComplexityIncreasing()
+    public static void SortedComplexity()
     {
-        var sortedHeroes = Process.SpawnHero().OrderBy(h => h.Complexity);
-        SortedPrint(sortedHeroes);
+        int input;
+        do
+        {
+            Console.Clear();
+            Console.Write("Введите значение (1-3): ");
+        }
+        while(!int.TryParse(Console.ReadLine() , out input) || input < 1 || input > 3);
+        
+        switch (input)
+        {
+            case 1:
+                var filterComplexity1 = Process.SpawnHero().Where(h => h.Complexity == "1");
+                FilterPrint(filterComplexity1);
+                break;
+            case 2:
+                var filterComplexity2 = Process.SpawnHero().Where(h => h.Complexity == "2");
+                FilterPrint(filterComplexity2);
+                break;
+            case 3:
+                var filterComplexity3 = Process.SpawnHero().Where(h => h.Complexity == "3");
+                FilterPrint(filterComplexity3);
+                break;
+        }
     }
-    public static void SortedComplexityDescending()
-    {
-        var sortedHeroes = Process.SpawnHero().OrderByDescending(h => h.Complexity);
-        SortedPrint(sortedHeroes);
-    }
-    
     public static void SortedTypeAttribute()
     {
-        var sortedHeroes = Process.SpawnHero().OrderBy(h => h.TypeAttribute);
-        SortedPrint(sortedHeroes);
+        int input;
+        do
+        {
+            Console.Clear();
+            Console.WriteLine("1) Сила\n2) Ловкость\n3) Интелект");
+            Console.Write("\nВведите значение: ");
+        }
+        while(!int.TryParse(Console.ReadLine() , out input) || input < 1 || input > 3);
+        
+        switch (input)
+        {
+            case 1:
+                var filterStrength = Process.SpawnHero().Where(h => h.TypeAttribute == "Strength");
+                FilterPrint(filterStrength);
+                break;
+            case 2:
+                var filterAgility = Process.SpawnHero().Where(h => h.TypeAttribute == "Agility");
+                FilterPrint(filterAgility);
+                break;
+            case 3:
+                var filterIntelligence = Process.SpawnHero().Where(h => h.TypeAttribute == "Agility");
+                FilterPrint(filterIntelligence);
+                break;
+        }
     }
     
     public static void SortedTypeAttack()
     {
-        var sortedHeroes = Process.SpawnHero().OrderBy(h => h.TypeAttack);
-        SortedPrint(sortedHeroes);
+        int input;
+        do
+        {
+            Console.Clear();
+            Console.WriteLine("1) Ближной бой\n2) Дальний бой");
+            Console.Write("\nВведите значение: ");
+        }
+        while(!int.TryParse(Console.ReadLine() , out input) || input < 1 || input > 2);
+        
+        switch (input)
+        {
+            case 1:
+                var filterStrength = Process.SpawnHero().Where(h => h.TypeAttack == "Melee");
+                FilterPrint(filterStrength);
+                break;
+            case 2:
+                var filterAgility = Process.SpawnHero().Where(h => h.TypeAttack == "Ranged");
+                FilterPrint(filterAgility);
+                break;
+        }
     }
     
     public static void SortedHealthIncreasing()
@@ -162,16 +202,4 @@ public class Sorted
         var sortedHeroes = Process.SpawnHero().OrderByDescending(h => h.Health);
         SortedPrint(sortedHeroes);
     }
-    
-
-    public static void SortedPrint(IOrderedEnumerable<Hero> sortedHeroes) 
-    {
-        Console.Clear();
-        foreach (var hero in sortedHeroes)
-        {
-            Console.WriteLine(hero); 
-            Thread.Sleep(5);
-        }
-    }
-    
 }

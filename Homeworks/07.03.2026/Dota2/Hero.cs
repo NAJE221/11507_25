@@ -3,7 +3,7 @@ namespace Dota2;
 public class Hero
 {
     public string Name { get; init; }
-    public int Complexity { get; init; }
+    public string Complexity { get; init; }
     public string TypeAttribute {get; init; }
     public string TypeAttack {get; init; }
     public int Health {get; init; }
@@ -13,7 +13,7 @@ public class Hero
 
     public Hero(
         string name, 
-        int complexity, 
+        string complexity, 
         string typeAttribute, 
         string typeAttack, 
         int health,
