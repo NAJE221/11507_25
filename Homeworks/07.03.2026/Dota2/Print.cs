@@ -7,38 +7,47 @@ public class Print
     {
         Console.Clear();
         Console.WriteLine("------СОРТИРОВКА------");
-        Console.WriteLine("1) Имя (Алфавитный порядок)\n"+
-                          "2) Сложность\n"+
-                          "3) Тип атрибут\n"+
-                          "4) Тип атаки\n"+
-                          "5) Здоровье (Возрастание)\n"+
-                          "6) Здоровье (Убывание)\n"+
-                          "7) Урон (Возрастание)\n"+
-                          "8) Урон (Убывание)\n"+
-                          "9) Броня (Возрастание)\n"+
-                          "10) Броня (Убывание)\n"+
-                          "11) Мана (Возрастание)\n"+
-                          "12) Мана (Убывание)\n");
+        Console.WriteLine("1) Сложность\n"+
+                          "2) Тип атрибут\n"+
+                          "3) Тип атаки\n"+
+                          "4) ХП (по возратсанию)");
+        Console.Write("Введите значение: ");
+    }
+
+    public static void PrintComplexity()
+    {
+        Console.Clear();
+        Console.WriteLine("------СЛОЖНОСТЬ------");
+        Console.Write("Введите значение (1 - 3) : ");
+    }
+
+    public static void PrintTypeAttribute()
+    {
+        Console.Clear();
+        Console.WriteLine("------АТРИБУТ------");
+        Console.WriteLine("1) Сила\n"+
+                          "2) Ловкость\n"+
+                          "3) Интелект\n");
         Console.Write("Введите значение: ");
     }
     
-    public static void SortedPrint(IOrderedEnumerable<Hero> sortedHeroes) 
+    public static void PrintTypeAttack()
     {
         Console.Clear();
-        foreach (var hero in sortedHeroes)
-        {
-            Console.WriteLine(hero); 
-            Thread.Sleep(5);
-        }
+        Console.WriteLine("------СТИЛЬ БОЯ------");
+        Console.WriteLine("1) Ближний бой\n" +
+                          "2) Дальний бой\n");
+        Console.Write("Введите значение: ");
     }
 
-    public static void FilterPrint(IEnumerable<Hero> sortedHeroes)
+    public static void PrintList<T>(List<T> list)
     {
         Console.Clear();
-        foreach (var hero in sortedHeroes)
+        foreach (T itrm in list)
         {
-            Console.WriteLine(hero); 
+            Console.WriteLine(itrm);
             Thread.Sleep(5);
         }
     }
+    
 }

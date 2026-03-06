@@ -36,4 +36,5 @@ public class Hero
         return $"{Name};{Complexity};{TypeAttribute};{TypeAttack};" +
                $"{Health};{Damage};{Armor};{Mana}";
     }
+    
 }
