@@ -1,0 +1,14 @@
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\bin\Debug\net8.0\LQHomeWork.exe
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\bin\Debug\net8.0\LQHomeWork.deps.json
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\bin\Debug\net8.0\LQHomeWork.runtimeconfig.json
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\bin\Debug\net8.0\LQHomeWork.dll
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\bin\Debug\net8.0\LQHomeWork.pdb
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.AssemblyInfoInputs.cache
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.AssemblyInfo.cs
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.dll
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\refint\LQHomeWork.dll
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.pdb
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\LQHomeWork.genruntimeconfig.cache
+C:\Users\Artem\Desktop\LQHomeWork\LQHomeWork\obj\Debug\net8.0\ref\LQHomeWork.dll
