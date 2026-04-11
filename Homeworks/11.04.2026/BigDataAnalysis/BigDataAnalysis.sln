@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDataAnalysis", "BigDataAnalysis\BigDataAnalysis.csproj", "{A573D997-A709-4BE4-9BC7-FDF9319440ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A573D997-A709-4BE4-9BC7-FDF9319440ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A573D997-A709-4BE4-9BC7-FDF9319440ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A573D997-A709-4BE4-9BC7-FDF9319440ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A573D997-A709-4BE4-9BC7-FDF9319440ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
