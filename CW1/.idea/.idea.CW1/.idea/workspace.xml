@@ -10,30 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0a3f675-3101-4272-9e19-9b245b5ee6bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Number1/9var.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number1/Machine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number1/Number1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number1/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number2/TemperatureEventArgs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number3/Process.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CW1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CW1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CW1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CW1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CW1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CW1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CW1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/CW1.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/CW1.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/CW1.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/CW1.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/Debug/net8.0/CW1.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/Debug/net8.0/CW1.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/Debug/net8.0/CW1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/Debug/net8.0/CW1.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/Debug/net8.0/CW1.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW1/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +47,12 @@
     ".NET Project.Number2.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "ControlWorks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,10 +69,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -109,10 +90,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -132,10 +111,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -162,6 +139,7 @@
       <workItem from="1775855161866" duration="20000" />
       <workItem from="1775904608353" duration="39000" />
       <workItem from="1775904666221" duration="6542000" />
+      <workItem from="1779541725887" duration="34000" />
     </task>
     <servers />
   </component>
